@@ -6,9 +6,8 @@ from autogen import AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager
 config_list = [
   {
         "model": "gpt-4o",
-        "api_key": "EYC4u0ULwZ32UHyZPxSwWyTiqDlROIZ0D3UgAjENiPocOPSXfyWHJQQJ99BFACYeBjFXJ3w3AAAAACOGob13",
-        "base_url": "https://samplerax.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview",  # Changed from api_base to base_url
-        "api_type": "azure",
+        "api_key": "your_api_key_here",  # Replace with your actual API key
+        "base_url": "https://your_azure_openai_instance.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions",  # Replace with your actual base URL
         "api_version":  "2025-01-01-preview"
   }
 ]
